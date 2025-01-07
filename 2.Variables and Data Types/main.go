@@ -25,8 +25,11 @@ fmt.Println(f);
 // 4.2. Array
 var g [5]int = [5]int{1,2,3,4,5};
 fmt.Println(g);
-
-
- b := "Hello, World" // Variable declaration and assignment
+// 4.3. Structure 
+ str12 := "Hello, World" 
+// Variable declaration and assignment
+ str12 = "Hello, World!"
+ fmt.Println(str12)
+ // Variable declaration and assignment
 
 }
