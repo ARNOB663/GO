@@ -7,6 +7,14 @@ func add(a int,b int) int{
 
 	 return sum
 }
+
+func getusername() string {
+	var name string
+	fmt.Println("Enter your name")
+	fmt.Scanln(&name)
+	return name
+
+}
 func printSomething(){
 fmt.Print("Education must be free")
 
@@ -17,6 +25,8 @@ func main() {
 	fmt.Scan(&a)
 	fmt.Scan(&b)
   
-   result := add(a,b)
-   fmt.Println(result)
+   //result := add(a,b)
+  // fmt.Println(result)
+   name := getusername()
+   fmt.Println("Hello",name)
 }
