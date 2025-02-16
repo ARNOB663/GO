@@ -11,7 +11,7 @@ func add(a int,b int) int{
 func getusername() string {
 	var name string
 	fmt.Println("Enter your name")
-	fmt.Scanln(&name)
+	fmt.Scan(&name)
 	return name
 
 }
@@ -27,6 +27,6 @@ func main() {
   
    //result := add(a,b)
   // fmt.Println(result)
-   name := getusername()
+  var name string = getusername()
    fmt.Println("Hello",name)
 }
