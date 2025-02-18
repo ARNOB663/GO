@@ -17,6 +17,7 @@ func getusername() string {
 }
 func printSomething(){
 	
+	
 fmt.Print("Education must be free")
 
 }
